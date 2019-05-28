@@ -14,6 +14,8 @@ public class Main {
         System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
         flipNHeads(3);
+        flipNHeads(1);
+        flipNHeads(22);
         clock();
     }
 
