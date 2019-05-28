@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
 public class Main {
@@ -12,8 +14,7 @@ public class Main {
         System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
         flipNHeads(3);
-
-        
+        clock();
     }
 
     public static String pluralize(String word, int number) {
@@ -43,5 +44,16 @@ public class Main {
                 break;
             }
         }
+    }
+
+    public static void clock(){
+        LocalDateTime now = LocalDateTime.now();
+        while (true){
+            if (now.getSecond() != LocalDateTime.now().getSecond()) {
+                System.out.println(now.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+                now = LocalDateTime.now();
+            }
+        }
+
     }
 }
