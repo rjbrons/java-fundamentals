@@ -2,7 +2,7 @@
 
 ## basics
 contains-
-Main (class)
+[Main](./basics/Main.java) (class)
 - pluralize(String, int)
 	- takes a string and an int and returns a string that pluralizes the input string based on whether the int is 1 or something else.
 - flipNHeads(int)
