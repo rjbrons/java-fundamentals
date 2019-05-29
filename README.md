@@ -13,7 +13,7 @@ Main (class)
 
 ## basiclibrary
 contains -
-Library (class)
+[Library](./basiclibrary/src/main/java/basiclibrary/Library.java) (class)
 	
 - roll(int num)
 	 - rolls a d6 num times and returns an array of the results.
