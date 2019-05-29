@@ -32,7 +32,7 @@ public class Library {
         }
 
     public double arrayAverage(int[] arrIn){
-        double total = 0;
+        double total = 0;i)
         for (int num : arrIn){
             total += num;
         }
