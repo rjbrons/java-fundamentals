@@ -2,7 +2,7 @@
 
 ## basics
 contains-
-Main (class)
+[Main](./basics/Main.java) (class)
 - pluralize(String, int)
 	- takes a string and an int and returns a string that pluralizes the input string based on whether the int is 1 or something else.
 - flipNHeads(int)
@@ -13,7 +13,7 @@ Main (class)
 
 ## basiclibrary
 contains -
-Library (class)
+[Library](./basiclibrary/src/main/java/basiclibrary/Library.java) (class)
 	
 - roll(int num)
 	 - rolls a d6 num times and returns an array of the results.
