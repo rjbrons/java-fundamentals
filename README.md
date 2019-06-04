@@ -39,3 +39,16 @@ contains -
 [Linter](./basiclibrary/src/main/java/linter/Linter.java) (class)
 - lint(String filepath)
   - Uses string to grab a file and prints list of lines that do not end in semicolon.
+
+## Inheritance
+contains - 
+Restaurant (class)
+- toString()
+- addReview()
+- setStars()
+- updateCost()
+- getReviews()
+
+Review (class) 
+- toString()
+
