@@ -52,3 +52,8 @@ Restaurant (class)
 Review (class) 
 - toString()
 
+Theater (class)
+- toString()
+
+Shop (class)
+- toString()

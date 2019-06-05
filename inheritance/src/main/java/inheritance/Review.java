@@ -5,6 +5,7 @@ public class Review {
     String body;
     String auth;
     int stars;
+    Object locationReviewed;
 
     public Review(String text, String auth, int rating) {
         this.body = text;
