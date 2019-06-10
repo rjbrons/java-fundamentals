@@ -44,16 +44,31 @@ contains -
 contains - 
 Restaurant (class)
 - toString()
-- addReview()
-- setStars()
-- updateCost()
+	- returns a string representation of the object.
+- addReview(Review newRev)
+	- takes in a Review instance and adds it to the restaraunt instance.
+- setStars(int total)
+	- pass in the total stars for the restaurant and it calculates and sets the avg stars field.
+- updateCost(String cost)
+	- Takes in a string of "$" chars to represent how expensive the restaurant is, sets the field for that instance.
 - getReviews()
+	- returns the list of reviews for that instance.
 
 Review (class) 
 - toString()
+	- prints out the review to console.
 
 Theater (class)
 - toString()
+	- Prints a representation of the Theater - including available movies - to console.
+- addMovie(String movie)
+	- Takes in a string of the movie title and adds it to the movie list for that Theater instance.
+- removeMovie(String movie)
+	- Takes in a string of a movie title and removes that title from that theater instance's movie list.
 
 Shop (class)
 - toString()
+	- Prints a string representation of the shop instance to console.
+- addReview(Review newRev)
+	- takes in an instance of a review and adds that to the Shop instance's review list.
+

@@ -23,6 +23,9 @@ public class ShopTest {
         String price = "$$$$";
         String name = "A Store Has No Name";
         Shop testShop = new Shop(name, desc, price);
+        Shop otherShop = null;
+        assertFalse("this should be false", otherShop instanceof Shop);
+        assertTrue("a shop should be an instance of the shop class", testShop instanceof Shop);
         assertEquals("Strings should match", "A Store Has No Name", testShop.name);
     }
 
